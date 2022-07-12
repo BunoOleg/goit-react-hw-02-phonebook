@@ -40,7 +40,7 @@ class ContactForm extends Component {
   render() {
     return (
       <>
-        <form className={styles.form} onSubmit={this.onSubmitHandler}>
+        <form className={styles.forms} onSubmit={this.onSubmitHandler}>
           <label className={styles.label}>
             Name
             <input
@@ -79,3 +79,5 @@ export default ContactForm;
 ContactForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
 };
+
+
