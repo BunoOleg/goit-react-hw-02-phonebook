@@ -1,14 +1,13 @@
 .div {
     width: 1200px;
     margin: 0 auto;
-    list-style: none
+    list-style: none;
 }
 
 ul {
     list-style: none;
     padding: 0;
 }
-
 
 
 ul button {
