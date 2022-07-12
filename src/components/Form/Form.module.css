@@ -7,10 +7,10 @@
     height: 150px;
     padding: 10px;
     background-image: repeating-linear-gradient(-45deg,
-            #1cadca,
-            #1cadca 10px,
-            #25515a 10px,
-            #25515a 20px);
+            #c7902b,
+                #cfe415 10px,
+                #18bbdb 10px,
+                #2049cf 20px);
 }
 
 ;
@@ -45,11 +45,13 @@
 
 .button:hover {
     background-color: #cde2e5;
+    color: green;
 }
 
 .button:active {
-    color: #ffffff;
+    color: green;
     background-color: #b3c2c4;
+    margin-left: 10px;
 }
 
 ;
