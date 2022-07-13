@@ -37,7 +37,7 @@ class App extends Component {
   };
 
   onInputHandler = e => {
-    this.setState({ filter: e.currentTarget.value });
+    this.setState({ filter: e.target.value });
   };
 
   filterReset = () => {
@@ -68,7 +68,6 @@ class App extends Component {
         <h2>Contacts</h2>
         <Filter
           onFilterInput={this.onInputHandler}
-          onBlur={this.filterReset}
           value={this.state.filter}
         />
         {this.state.contacts.length > 0 ? (

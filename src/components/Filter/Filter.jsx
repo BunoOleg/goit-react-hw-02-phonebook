@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 
 
-const Filter = ({ onFilterInput, onBlur, value }) => {
+const Filter = ({ onFilterInput, value }) => {
   return (
       <label className={styles.label}>
       Find contacts by name
@@ -14,7 +14,6 @@ const Filter = ({ onFilterInput, onBlur, value }) => {
         type="text"
         value={value}
         onChange={onFilterInput}
-        onBlur={onBlur}
       />
     </label>
   );
